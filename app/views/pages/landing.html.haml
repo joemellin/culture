@@ -1,0 +1,649 @@
+!!!
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8] <html class="no-js lt-ie9">
+/ [if gt IE 8]><!
+%html.no-js
+  / <![endif]
+  %head
+    %meta{:charset => "utf-8"}
+      %title CloudArena
+      %meta{:content => "", :name => "description"}
+        %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+          / Google fonts
+          %link{:href => "http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic", :rel => "stylesheet", :type => "text/css"}
+  %body
+    /[if lt IE 7]
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    / Header
+    %header#header{"data-0" => "top: 0%;", "data-400" => "top: -10%;"}
+      .container
+        .navbar{:role => "navigation"}
+          .navbar-header
+            %button.navbar-toggle.visible-xs{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            %h1.logo
+              %a{:href => "index.html", :title => "Home"}
+                %span.sprite.icon
+                Cloud
+                %strong Arena
+          %nav.navbar-collapse.collapse
+            %ul.nav.navbar-nav
+              %li.sub
+                %a{:href => "index.html", :title => "Home"} Home
+                %ul
+                  %li
+                    %a{:href => "index.html", :title => "Gradient"} Gradient
+                  %li
+                    %a{:href => "index-color.html", :title => "Single color"} Single color
+                  %li
+                    %a{:href => "index-video.html", :title => "Video"} Video
+                  %li
+                    %a{:href => "index-image.html", :title => "Image"} Image
+                  %li
+                    %a{:href => "index-cols.html", :title => "Two columns"} Two columns
+                  %li
+                    %a{:href => "index-full-gradient.html", :title => "Fullscreen gradient"} Fullscreen gradient
+                  %li
+                    %a{:href => "index-full-color.html", :title => "Fullscreen single color"} Fullscreen single color
+                  %li
+                    %a{:href => "index-full-video.html", :title => "Fullscreen video"} Fullscreen video
+                  %li
+                    %a{:href => "index-full-image.html", :title => "Fullscreen image"} Fullscreen image
+                  %li
+                    %a{:href => "index-full-cols.html", :title => "Fullscreen two columns"} Fullscreen two columns
+              %li.active.sub
+                %a{:href => "about.html", :title => "About"} About
+                %ul
+                  %li
+                    %a{:href => "icons.html", :title => "Icons"} Icons
+                  %li
+                    %a.active{:href => "landing.html", :title => "Landing"} Landing
+              %li
+                %a{:href => "pricing.html", :title => "Pricing"} Pricing
+              %li
+                %a{:href => "blog.html", :title => "Blog"} Blog
+              %li
+                %a{:href => "contact.html", :title => "Contact"} Contact
+              %li.login
+                %a{:href => "login.html", :title => "Login"}
+                  %i.icon.fa.fa-lock
+                  Login
+        .text-center.wrap
+          %h2
+            Template
+            %strong Cloud Arena
+            for you
+          %h3 Fast &amp; robust template for your online services
+          / Form
+          .row
+            .col-xs-12.col-md-10.col-md-offset-1
+              %form.form.loginRegistrationForm
+                .row
+                  .col-xs-12.col-sm-4.i
+                    .input
+                      %input.form-control.input-field{:type => "email"}
+                        %label.input-label
+                          %span.input-label-content Email Address
+                  .col-xs-12.col-sm-4.i
+                    .input
+                      %input.form-control.input-field{:type => "password"}
+                        %label.input-label
+                          %span.input-label-content Password
+                  .col-xs-12.col-sm-4.i
+                    %button.btn.btn-lg.btn-yellow.btn-effect{:type => "submit"} Create my account
+    / Features
+    %section.section.features
+      .container
+        %header.text-center
+          .row
+            .col-xs-12.col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2
+              %h2
+                Your message for all
+                %strong 2,500 customers
+              %p
+                This template CloudArena was designed to fit your digital product as a presentation site. You can use it in
+                %b various
+                ways, with different icons and colors. It is ready to navigate users to
+                %b sign up
+                to your service or product.
+        .row.text-center
+          .col-sm-4.i
+            %span.sprite.icon.icon-responsive
+            %h3
+              %a{:href => "#", :title => "#"} Fully Responsive
+            %p All pages from this template are fully responsive. You can use it on any device.
+          .col-sm-4.i
+            %span.sprite.icon.icon-technologies
+            %h3
+              %a{:href => "#", :title => "#"} Latest Technologies
+            %p
+              Based on latest version of
+              %b Bootstrap
+              framework - 3.3
+          .col-sm-4.i
+            %span.sprite.icon.icon-animations
+            %h3
+              %a{:href => "#", :title => "#"} Amazing Icons
+            %p Template contains big set of icons that can be used with this theme or in your connected application
+    / Functions
+    %section.section.gray.functions
+      .container
+        %header.text-center
+          .row
+            .col-xs-12.col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2
+              %h2
+                Simple but
+                %strong Powerfull
+              %p You can use this section as presentation of your product or work. You can put your own images into computer screen and change it by clicking on icons. This is interactive presentation of your screens.
+        .row
+          .col-lg-10.col-lg-offset-1
+            .row.js-screens-filter
+              .col-sm-15.i
+                %a{"aria-controls" => "tab-about-us", "data-toggle" => "tab", :href => "#tab-about-us", :role => "tab"}
+                  %span.sprite.icon.icon-about
+                %a.hoverExtend.active{"aria-controls" => "tab-about-us", "data-toggle" => "tab", :href => "#tab-about-us", :role => "tab"} About us
+              .col-sm-15.i
+                %a{"aria-controls" => "tab-pricing-tables", "data-toggle" => "tab", :href => "#tab-pricing-tables", :role => "tab"}
+                  %span.sprite.icon.icon-pricing-tables
+                %a.hoverExtend{"aria-controls" => "tab-pricing-tables", "data-toggle" => "tab", :href => "#tab-pricing-tables", :role => "tab"} Pricing tables
+              .col-sm-15.i
+                %a{"aria-controls" => "tab-blog-page", "data-toggle" => "tab", :href => "#tab-blog-page", :role => "tab"}
+                  %span.sprite.icon.icon-blog
+                %a.hoverExtend{"aria-controls" => "tab-blog-page", "data-toggle" => "tab", :href => "#tab-blog-page", :role => "tab"} Blog page
+              .col-sm-15.i
+                %a{"aria-controls" => "tab-contact", "data-toggle" => "tab", :href => "#tab-contact", :role => "tab"}
+                  %span.sprite.icon.icon-contact
+                %a.hoverExtend{"aria-controls" => "tab-contact", "data-toggle" => "tab", :href => "#tab-contact", :role => "tab"} Contact
+              .col-sm-15.i
+                %a{"aria-controls" => "tab-login", "data-toggle" => "tab", :href => "#tab-login", :role => "tab"}
+                  %span.sprite.icon.icon-login
+                %a.hoverExtend{"aria-controls" => "tab-login", "data-toggle" => "tab", :href => "#tab-login", :role => "tab"} Login
+            .tab-content.notebook
+              / Notebook
+              %img.img-responsive{:alt => "#", :height => "510", :src => "img/macbook.png", :width => "968"}
+                / Images
+                #tab-about-us.tab-pane.fade.image.in.active{:role => "tabpanel"}
+                  %img.img-responsive{:alt => "#", :height => "417", :src => "tmp/about-us.jpg", :width => "667"}
+                #tab-pricing-tables.tab-pane.fade.image{:role => "tabpanel"}
+                  %img.img-responsive{:alt => "#", :height => "417", :src => "tmp/pricing-tables.jpg", :width => "667"}
+                #tab-blog-page.tab-pane.fade.image{:role => "tabpanel"}
+                  %img.img-responsive{:alt => "#", :height => "417", :src => "tmp/blog.jpg", :width => "667"}
+                #tab-contact.tab-pane.fade.image{:role => "tabpanel"}
+                  %img.img-responsive{:alt => "#", :height => "417", :src => "tmp/contact.jpg", :width => "667"}
+                #tab-login.tab-pane.fade.image{:role => "tabpanel"}
+                  %img.img-responsive{:alt => "#", :height => "417", :src => "tmp/login.jpg", :width => "667"}
+    / Testimonials
+    .section.testimonials
+      .container
+        %header.text-center
+          .row
+            .col-xs-12.col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2
+              %h2
+                We're building
+                %strong Relationships
+        .row
+          / User testimonials
+          .col-xs-12.col-sm-7.userTestimonials
+            .js-testimonials-carousel
+              .item
+                .col-xs-10.col-xs-offset-1
+                  %img.image{:alt => "#", :height => "80", :src => "tmp/80x80.jpg", :width => "80"}
+                    %h3 George Doe
+                    %h4 – Blackhorse owner –
+                    %p
+                      Publishing your users stories abount your product can be usefull for your next clients. You can describe how your clients use your product to increase theirs busssinesses. Tempalte is ready to display information from your social media sites.
+              .item
+                .col-xs-10.col-xs-offset-1
+                  %img.image{:alt => "#", :height => "80", :src => "tmp/80x80.jpg", :width => "80"}
+                    %h3 Nick Doe
+                    %h4 – Digiapple owner –
+                    %p Publishing your users stories abount your product can be usefull for your next clients. You can describe how your clients use your product to increase theirs busssinesses. Tempalte is ready to display information from your social media sites.
+              .item
+                .col-xs-10.col-xs-offset-1
+                  %img.image{:alt => "#", :height => "80", :src => "tmp/80x80.jpg", :width => "80"}
+                    %h3 Andrew Doe
+                    %h4 – T-crowd owner –
+                    %p Publishing your users stories abount your product can be usefull for your next clients. You can describe how your clients use your product to increase theirs busssinesses. Tempalte is ready to display information from your social media sites.
+          / Twitter
+          .col-xs-12.col-sm-4.col-sm-offset-1.tweets.js-tweets
+            .item
+              .i
+                %p
+                  Amazing
+                  %span.green
+                    %strong @acusammus
+                  theme lorem ipsum dolores!
+                  %span.green
+                    %strong @CloudArena
+                  theme is great theme
+                %span.time Posted 13 hours ago
+              .i
+                %p
+                  Cheers
+                  %span.green
+                    %strong @jura_mol
+                  it's exciting to see people getting the most out of it!
+                %span.time Posted 22 hours ago
+              .i
+                %p
+                  TOP
+                  = succeed ":" do
+                    %span.green
+                      %strong @molnar
+                  Making a new
+                  %span.green
+                    %strong @CloudArena
+                  theme?
+                  %span.green
+                    %strong @wrapbootstrap
+                  and lorem ipsum.
+                %span.time Posted 1 day ago
+            .item
+              .i
+                %p
+                  Amazing
+                  %span.green
+                    %strong @acusammus
+                  theme lorem ipsum dolores!
+                  %span.green
+                    %strong @CloudArena
+                  theme is great theme
+                %span.time Posted 13 hours ago
+              .i
+                %p
+                  Cheers
+                  %span.green
+                    %strong @jura_mol
+                  it's exciting to see people getting the most out of it!
+                %span.time Posted 22 hours ago
+              .i
+                %p
+                  TOP
+                  = succeed ":" do
+                    %span.green
+                      %strong @molnar
+                  Making a new
+                  %span.green
+                    %strong @CloudArena
+                  theme?
+                  %span.green
+                    %strong @wrapbootstrap
+                  and lorem ipsum.
+                %span.time Posted 1 day ago
+            .item
+              .i
+                %p
+                  Amazing
+                  %span.green
+                    %strong @acusammus
+                  theme lorem ipsum dolores!
+                  %span.green
+                    %strong @CloudArena
+                  theme is great theme
+                %span.time Posted 13 hours ago
+              .i
+                %p
+                  Cheers
+                  %span.green
+                    %strong @jura_mol
+                  it's exciting to see people getting the most out of it!
+                %span.time Posted 22 hours ago
+              .i
+                %p
+                  TOP
+                  = succeed ":" do
+                    %span.green
+                      %strong @molnar
+                  Making a new
+                  %span.green
+                    %strong @CloudArena
+                  theme?
+                  %span.green
+                    %strong @wrapbootstrap
+                  and lorem ipsum.
+                %span.time Posted 1 day ago
+    / Features
+    %section.section.gray.aboutFeatures
+      .container
+        .row
+          .col-xs-6.col-md-4.col-md-pull-1.col-lg-4.col-lg-pull-1.i.image.pull-right
+            %img.img-responsive{:alt => "#", :height => "243", :src => "img/feature-icon-1.png", :width => "185"}
+          .col-xs-6.col-md-5.col-md-offset-1.col-lg-4.col-lg-offset-1.i.text
+            %h2
+              Boostrap
+              %strong v 3.3
+            %p Template is based on newest version of Bootstrap. You can use all bootstrap features like grid, buttons, tables etc. etc..
+            %a.more{:href => "#", :title => "#"}
+              More
+              %span.sprite.icon-arrow
+    / Features
+    %section.section.aboutFeatures
+      .container
+        .row
+          .col-xs-6.col-md-4.col-md-offset-1.col-lg-4.col-lg-offset-1.i.image
+            %img.img-responsive{:alt => "#", :height => "208", :src => "img/feature-icon-2.png", :width => "207"}
+          .col-xs-6.col-md-5.col-md-offset-1.col-lg-4.col-lg-offset-1.i.text
+            %h2
+              Customizable
+              %strong options
+            %p You can easily change color scheme or template. Template blocks can be rearagned as you need. You can follow documentation to see all features and possibilities
+            %a.more{:href => "#", :title => "#"}
+              More
+              %span.sprite.icon-arrow
+    / Meet our team
+    .section.ourTeam
+      .container
+        %header.text-center
+          %h2
+            Meet
+            %strong Our Team
+        .row
+          .col-xs-6.col-sm-3.i
+            .c.text-center
+              .wrap
+                %img.img-responsive{:alt => "#", :height => "270", :src => "tmp/team-1.jpg", :width => "270"}
+                  .info
+                    %h3.name John Doe
+                    %h4.position Chief Executive Officer
+              .more
+                %p Ut sed consectetur ligula. Aenean id nibh accumsan, pre tium nulla in, lacinia aecenas mollis. Sed mauris at sollicitudin. Etiam maximus mauris vel leo mattis, non venenatis magna finibus vestibulum.
+                .socials
+                  %a.facebook{:href => "#", :title => "#"}
+                    %i.fa.fa-facebook
+                  %a.twitter{:href => "#", :title => "#"}
+                    %i.fa.fa-twitter
+                  %a.google-plus{:href => "#", :title => "#"}
+                    %i.fa.fa-google-plus
+                  %a.linkedin{:href => "#", :title => "#"}
+                    %i.fa.fa-linkedin
+          .col-xs-6.col-sm-3.i
+            .c.text-center
+              .wrap
+                %img.img-responsive{:alt => "#", :height => "270", :src => "tmp/team-2.jpg", :width => "270"}
+                  .info
+                    %h3.name Elizabeth Doe
+                    %h4.position Marketing Specialist
+              .more
+                %p Ut sed consectetur ligula. Aenean id nibh accumsan, pre tium nulla in, lacinia aecenas mollis. Sed mauris at sollicitudin. Etiam maximus mauris vel leo mattis, non venenatis magna finibus vestibulum.
+                .socials
+                  %a.facebook{:href => "#", :title => "#"}
+                    %i.fa.fa-facebook
+                  %a.twitter{:href => "#", :title => "#"}
+                    %i.fa.fa-twitter
+                  %a.google-plus{:href => "#", :title => "#"}
+                    %i.fa.fa-google-plus
+                  %a.linkedin{:href => "#", :title => "#"}
+                    %i.fa.fa-linkedin
+          .col-xs-6.col-sm-3.i
+            .c.text-center
+              .wrap
+                %img.img-responsive{:alt => "#", :height => "270", :src => "tmp/team-3.jpg", :width => "270"}
+                  .info
+                    %h3.name Doug Doe
+                    %h4.position Head of Support
+              .more
+                %p Ut sed consectetur ligula. Aenean id nibh accumsan, pre tium nulla in, lacinia aecenas mollis. Sed mauris at sollicitudin. Etiam maximus mauris vel leo mattis, non venenatis magna finibus vestibulum.
+                .socials
+                  %a.facebook{:href => "#", :title => "#"}
+                    %i.fa.fa-facebook
+                  %a.twitter{:href => "#", :title => "#"}
+                    %i.fa.fa-twitter
+                  %a.google-plus{:href => "#", :title => "#"}
+                    %i.fa.fa-google-plus
+                  %a.linkedin{:href => "#", :title => "#"}
+                    %i.fa.fa-linkedin
+          .col-xs-6.col-sm-3.i
+            .c.text-center
+              .wrap
+                %img.img-responsive{:alt => "#", :height => "270", :src => "tmp/team-4.jpg", :width => "270"}
+                  .info
+                    %h3.name Fabricio Doe
+                    %h4.position Chief Technical Officer
+              .more
+                %p Ut sed consectetur ligula. Aenean id nibh accumsan, pre tium nulla in, lacinia aecenas mollis. Sed mauris at sollicitudin. Etiam maximus mauris vel leo mattis, non venenatis magna finibus vestibulum.
+                .socials
+                  %a.facebook{:href => "#", :title => "#"}
+                    %i.fa.fa-facebook
+                  %a.twitter{:href => "#", :title => "#"}
+                    %i.fa.fa-twitter
+                  %a.google-plus{:href => "#", :title => "#"}
+                    %i.fa.fa-google-plus
+                  %a.linkedin{:href => "#", :title => "#"}
+                    %i.fa.fa-linkedin
+    / Stats
+    .section.stats
+      .container
+        .row
+          .col-xs-12.col-md-10.col-md-offset-1
+            .row
+              .col-xs-12.col-sm-3.i
+                %span.sprite.icon.icon-projects
+                .num.js-count{"data-speed" => "3000", "data-to" => "61102"} 61,102
+                %h2 Projects
+              .col-xs-12.col-sm-3.i
+                %span.sprite.icon.icon-hours
+                .num.js-count{"data-speed" => "3000", "data-to" => "925685"} 925,685
+                %h2 Hours online
+              .col-xs-12.col-sm-3.i
+                %span.sprite.icon.icon-done
+                .num.js-count{"data-speed" => "3000", "data-to" => "43517"} 43,517
+                %h2 Happy clients
+              .col-xs-12.col-sm-3.i
+                %span.sprite.icon.icon-diary
+                .num
+                  %span.js-count{"data-speed" => "3000", "data-to" => "2000"}> 2000
+                  +
+                %h2 Contacts
+    / Clients
+    %section.section.clients
+      .container
+        %header.text-center
+          .row
+            .col-xs-12.col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2
+              %h2 Clients
+              %p Decent listing with your clients. Fully customizable and ready to use in any subpages as you want. Responsive for any numbers of clients in this section.
+        .row
+          .col-xs-4.col-md-2.i
+            %a{:href => "#", :title => "#"}
+              %img.img-responsive{:alt => "#", :height => "102", :src => "tmp/clients/digiapple.png", :width => "69"}
+          .col-xs-4.col-md-2.i
+            %a{:href => "#", :title => "#"}
+              %img{:alt => "#", :height => "119", :src => "tmp/clients/backhorse-digital.png", :width => "106"}
+          .col-xs-4.col-md-2.i
+            %a{:href => "#", :title => "#"}
+              %img{:alt => "#", :height => "106", :src => "tmp/clients/veagle-technologies.png", :width => "117"}
+          .col-xs-4.col-md-2.i
+            %a{:href => "#", :title => "#"}
+              %img{:alt => "#", :height => "106", :src => "tmp/clients/coffetwist.png", :width => "77"}
+          .col-xs-4.col-md-2.i
+            %a{:href => "#", :title => "#"}
+              %img{:alt => "#", :height => "87", :src => "tmp/clients/diagonal.png", :width => "128"}
+          .col-xs-4.col-md-2.i
+            %a{:href => "#", :title => "#"}
+              %img{:alt => "#", :height => "103", :src => "tmp/clients/t-crowd.png", :width => "75"}
+    / Pricing tables
+    .pricingTables.landing
+      .container
+        .row
+          .col-xs-6.col-md-3.i
+            .c
+              .head Free
+              .price
+                Free
+              .info
+                %strong 2 GB
+                RAM
+                %br/
+                %strong 1 Core
+                Processor
+                %br/
+                %strong 25 GB
+                of space
+                %br/
+                %strong 2 TB
+                Transfer speed
+                %br/
+                No SSL
+              .btnWrap
+                %a.btn.btn-gray{:href => "#", :title => "#"} Sign Up
+          .col-xs-6.col-md-3.i
+            .c
+              .head Multisite
+              .price
+                15
+                %sup $
+                %span / site
+              .info
+                %strong 4 GB
+                RAM
+                %br/
+                %strong 2 Core
+                Processor
+                %br/
+                %strong 50 GB
+                of space
+                %br/
+                %strong 4 TB
+                Transfer speed
+                %br/
+                SII Basic
+              .btnWrap
+                %a.btn.btn-gray{:href => "#", :title => "#"} Sign Up
+          .col-xs-6.col-md-3.i.active
+            .c
+              .head Multisite
+              .price
+                30
+                %sup $
+                %span / multi
+              .info
+                %strong 8 GB
+                RAM
+                %br/
+                %strong 4 Core
+                Processor
+                %br/
+                %strong 100 GB
+                of space
+                %br/
+                %strong 6 TB
+                Transfer speed
+                %br/
+                %strong Full SSL
+                security
+              .btnWrap
+                %a.btn.btn-gray{:href => "#", :title => "#"} Sign Up
+          .col-xs-6.col-md-3.i
+            .c
+              .head Extended
+              .price
+                90
+                %sup $
+                %span / unlimited
+              .info
+                %strong 16 GB
+                RAM
+                %br/
+                %strong 6 Core
+                Processor
+                %br/
+                %strong 200 GB
+                of space
+                %br/
+                %strong 8 TB
+                Transfer speed
+                %br/
+                %strong Full SSL
+                security
+              .btnWrap
+                %a.btn.btn-gray{:href => "#", :title => "#"} Sign Up
+        %p.text-center.moreInfo
+          * This pricing table is only for
+          %strong demo purposes
+          only. This template is only available on
+          %a{:href => "http://wrapbootstrap.com/", :target => "_blank"} wrapbootstrap.com
+    / Business theme
+    .section.businessTheme
+      .container.text-center
+        %h2 Do you need beautiful business theme?
+        %a.btn.btn-lg.btn-yellow.btn-effect{:href => "#", :title => "#"}
+          Purchase CloudArena
+          %span $15 only
+    / Google map
+    #googleMap{"data-lat" => "40.779165", "data-lng" => "-73.962928"}
+    %script{:src => "https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"}
+    / Footer
+    %footer#footer
+      .wrap
+        .container
+          .row
+            .col-xs-6.col-sm-3.i
+              %h2 CloudArena
+              .content
+                Some street No. 58
+                %br/
+                951 55 Bratislava
+                %br/
+                Slovakia
+                %br/
+                +421 555 888 999
+                %br/
+                %a{:href => "#", :title => "#"} info@yourdomain.com
+            .col-xs-6.col-sm-3.i
+              %h2 Newsletter
+              %p Get the latest news via email:
+              %form
+                %input.form-control{:type => "email"}
+                  %button.submit.sprite{:type => "submit"}
+            .col-xs-6.col-sm-3.i
+              %h2 Follow
+              %p Get close to us
+              .socials
+                %a.facebook{:href => "#", :title => "#"}
+                  %i.fa.fa-facebook
+                %a.twitter{:href => "#", :title => "#"}
+                  %i.fa.fa-twitter
+                %a.google-plus{:href => "#", :title => "#"}
+                  %i.fa.fa-google-plus
+                %a.linkedin{:href => "#", :title => "#"}
+                  %i.fa.fa-linkedin
+            .col-xs-6.col-sm-3.i
+              %h2 Account
+              .content.clearfix
+                %a{:href => "#", :title => "#"} My account
+                %a{:href => "#", :title => "#"} Activity history
+                %a{:href => "#", :title => "#"} Deploys
+                %a{:href => "#", :title => "#"} My worklogs
+      / Copyright
+      .copyright
+        .container
+          .row
+            .col-xs-6.i
+              Copyright © 2015
+              %a{:href => "http://arena.tomaj.sk/", :title => "CloudArena"} CloudArena
+            .col-xs-6.i
+              Web Design:
+              %a{:href => "http://www.jurajmolnar.com/", :target => "_blank", :title => "Juraj Molnar"} Juraj Molnár
+    / JS
+    %script{:src => "assets/js/jquery-1.11.2.min.js"}
+    %script{:src => "assets/bootstrap/js/bootstrap.min.js"}
+    %script{:src => "assets/js/owl.carousel.min.js"}
+    %script{:src => "assets/js/skrollr.min.js"}
+    %script{:src => "assets/js/waypoints.min.js"}
+    %script{:src => "assets/js/jquery.countTo.js"}
+    %script{:src => "assets/js/classie.js"}
+    %script{:src => "assets/js/app.min.js"}
+    /
+      Google Analytics: change UA-XXXXX-X to be your site's ID.
+      <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+      </script>
